@@ -1,0 +1,7 @@
+version: '3'
+services:
+    news-api:
+        restart: always
+        build: .
+        ports: 
+            - "8080:8080"
